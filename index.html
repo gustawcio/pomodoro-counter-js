@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Counter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="app" fullcreen="false" id="app">
+        <h1>Pomodoro Counter</h1>
+        <section class="main">
+            <div class="time-buttons__container">
+                <button class="time-button button" id="button-start">start</button>
+                <button class="time-button button" id="button-small_break">stop</button>
+                <button class="time-button button" id="button-big_break">break</button>
+            </div>
+            <div class="display" id="display">25 : 00</div>
+            <div class="other-buttons__container">
+                <button class="button-other button" id="button-sound">add sound</button>
+                <button class="button-other button" id="button-dark_mode">dark mode</button>
+            </div>
+        </section>
+        <section class="audio">
+            <audio id="audio" src="./assets/GGViolin_Idzie_Dysc_master2.mp3"></audio>
+            <audio id="clock" src="./assets/budzik1.mp3"></audio>
+        </section>
+        <footer class="footer">made by gustawcio</footer>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
